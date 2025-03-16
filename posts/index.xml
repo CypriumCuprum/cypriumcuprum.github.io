@@ -6,8 +6,17 @@
     <description>Recent content in Posts on CLog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>vi</language>
-    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cypriumcuprum.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convolution</title>
+      <link>https://cypriumcuprum.github.io/posts/aroundcnn/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://cypriumcuprum.github.io/posts/aroundcnn/</guid>
+      <description>&lt;h2 id=&#34;what-is-convolution&#34;&gt;What is convolution?&lt;/h2&gt;
+&lt;p&gt;Đối với ảnh, 1 cách hiểu high-level thì các lớp convolution giống các template. Ở các template này sẽ bắt lấy thông tin trên bức ảnh.&lt;/p&gt;
+&lt;p&gt;Đối với mình, khi học môn Image Processing trên trường, mình biết thêm về những phương pháp phát hiện biên, tăng cường ảnh và những kiến thức cổ điển khác. Các phép toán cổ điển này được thiết kế để con người có thể hiểu được (interpretable), các toán tử như Robert, Sobel, Prewitt, … cũng được thực hiện trên ảnh như 1 lớp convolution để tăng cường, phát hiện biên.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My first Blog</title>
       <link>https://cypriumcuprum.github.io/posts/aboutme/</link>
@@ -15,7 +24,7 @@
       <guid>https://cypriumcuprum.github.io/posts/aboutme/</guid>
       <description>&lt;p&gt;Đây là blog đầu tiên của tôi. Cảm ơn Hugo và theme PaperMod.&lt;/p&gt;
 &lt;p&gt;OMG I don&amp;rsquo;t know why I couldn&amp;rsquo;t write my language - Vietnamese using Visual Studio Code. I will fix soon. Sorry if my English is not good but I do my best and ofcourse ChatGPT :)), thanks.&lt;/p&gt;
-&lt;h1 id=&#34;why-is-blog&#34;&gt;Why is Blog?&lt;/h1&gt;
+&lt;h2 id=&#34;why-is-blog&#34;&gt;Why is Blog?&lt;/h2&gt;
 &lt;p&gt;I created this blog and started writing because I want to share what I learn by myself and from my university, PTIT. My major is Software Engineering, but I have a passion for AI research, specifically in Computer Vision and image-based methods.&lt;/p&gt;</description>
     </item>
   </channel>
