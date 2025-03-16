@@ -14,7 +14,7 @@
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://cypriumcuprum.github.io/posts/aroundcnn/</guid>
       <description>&lt;h2 id=&#34;what-is-convolution&#34;&gt;What is convolution?&lt;/h2&gt;
-&lt;p&gt;Đối với ảnh, 1 cách hiểu high-level thì các lớp convolution giống các template. Ở các template này sẽ bắt lấy thông tin trên bức ảnh.&lt;/p&gt;
+&lt;p&gt;Đối với ảnh, 1 cách hiểu high-level thì các lớp convolution giống các template. Ở các template này sẽ bắt lấy/trích rút (capture) thông tin trên bức ảnh.&lt;/p&gt;
 &lt;p&gt;Đối với mình, khi học môn Image Processing trên trường, mình biết thêm về những phương pháp phát hiện biên, tăng cường ảnh và những kiến thức cổ điển khác. Các phép toán cổ điển này được thiết kế để con người có thể hiểu được (interpretable), các toán tử như Robert, Sobel, Prewitt, … cũng được thực hiện trên ảnh như 1 lớp convolution để tăng cường, phát hiện biên.&lt;/p&gt;</description>
     </item>
     <item>

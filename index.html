@@ -58,7 +58,26 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://cypriumcuprum.github.io/">
+</noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ]
+    });
+});
+</script>
+<meta property="og:url" content="https://cypriumcuprum.github.io/">
   <meta property="og:site_name" content="CLog">
   <meta property="og:title" content="CLog">
   <meta property="og:description" content="My Educational Blog">
@@ -176,7 +195,7 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>What is convolution? Đối với ảnh, 1 cách hiểu high-level thì các lớp convolution giống các template. Ở các template này sẽ bắt lấy thông tin trên bức ảnh.
+    <p>What is convolution? Đối với ảnh, 1 cách hiểu high-level thì các lớp convolution giống các template. Ở các template này sẽ bắt lấy/trích rút (capture) thông tin trên bức ảnh.
 Đối với mình, khi học môn Image Processing trên trường, mình biết thêm về những phương pháp phát hiện biên, tăng cường ảnh và những kiến thức cổ điển khác. Các phép toán cổ điển này được thiết kế để con người có thể hiểu được (interpretable), các toán tử như Robert, Sobel, Prewitt, … cũng được thực hiện trên ảnh như 1 lớp convolution để tăng cường, phát hiện biên.
 ...</p>
   </div>
